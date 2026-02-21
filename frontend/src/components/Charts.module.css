@@ -1,0 +1,72 @@
+.chartWrapper {
+  width: 100%;
+}
+
+.pieLayout {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.legend {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 180px;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.legendDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.legendLabel {
+  flex: 1;
+  color: var(--text-secondary);
+  font-size: 13px;
+}
+
+.legendValue {
+  color: var(--text-primary);
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.tooltip {
+  background: var(--bg-card);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-sm);
+  padding: 10px 14px;
+  box-shadow: var(--shadow-card);
+}
+
+.tooltipLabel {
+  color: var(--text-secondary);
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.tooltipValue {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.tooltipSub {
+  color: var(--text-muted);
+  font-size: 11px;
+  margin-top: 3px;
+}
+
+@media (max-width: 600px) {
+  .pieLayout {
+    flex-direction: column;
+  }
+}
