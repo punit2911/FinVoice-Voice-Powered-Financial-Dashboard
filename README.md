@@ -11,7 +11,7 @@ A full-stack MERN application that accepts voice commands, resolves financial in
 | Frontend | React.js (with Recharts for data visualization) |
 | Backend | Node.js + Express.js |
 | Database | MongoDB + Mongoose ODM |
-| Speech-to-Text | OpenAI Whisper API |
+| Speech-to-Text | OpenAI Whisper/ Deepgram API |
 | Audio Recording | Browser MediaRecorder Web API |
 
 ---
