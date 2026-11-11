@@ -1,4 +1,4 @@
-# FinVoice — Voice-Powered Financial Dashboard - Created by Punit Gavali !
+# FinVoice — Voice-Powered Financial Dashboard - Created by Punit Gavali 
 
 A full-stack MERN application that accepts voice commands, resolves financial intents using speech-to-text transcription, fetches data from MongoDB, and dynamically renders the appropriate chart or table in the React UI — all without a page reload.
 
